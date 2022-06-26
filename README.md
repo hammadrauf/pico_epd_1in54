@@ -8,9 +8,13 @@ https://www.waveshare.com/product/displays/e-paper/1.54inch-e-paper-module.htm
 
 https://www.waveshare.com/wiki/1.54inch_e-Paper_Module
 
+https://github.com/waveshare/e-Paper
+
 https://www.digikey.ca/en/maker/projects/raspberry-pi-pico-rp2040-spi-example-with-micropython-and-cc/9706ea0cf3784ee98e35ff49188ee045
 
 https://www.waveshare.com/wiki/Pico-ePaper-2.13
+
+https://github.com/waveshare/Pico_ePaper_Code
 
 ## Pin Connections for Pico and E-Paper Display
 ![Pin Connections](/PinConnections.png)
