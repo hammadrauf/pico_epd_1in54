@@ -23,7 +23,7 @@ https://github.com/waveshare/Pico_ePaper_Code
 ![Pin Connections](/PinConnections.png)
 
 ## Pico Pin Layout
-![Pico Pin Layout](/raspberry-pi-pico-pinout.jpg)
+![Pico Pin Layout](/raspberry-pi-pico-pinout.png)
 
 ## WSL2 Reference
 
