@@ -15,7 +15,7 @@ https://www.waveshare.com/wiki/Pico-ePaper-2.13
 WSL2 on Windows 11, VSCode.
 
 ## Pinout for Pico and E-Paper Display
-```
+
 	+=======================================================================================================================+
 	|	SYMBOL	DESCRIPTION						Pico Pin#				GPIO#			Active As			Master In/Out	|
 	|	======	===========						=========				=====			=========			=============	|
@@ -29,4 +29,4 @@ WSL2 on Windows 11, VSCode.
 	|	RST		External reset, low active		27 (Any)				GP21			Low					Out				|
 	|	BUSY	Busy status output, high active	29 (Any)				GP22			High				In				|
 	+=======================================================================================================================+
-```
+
