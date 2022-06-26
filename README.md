@@ -10,25 +10,28 @@ https://www.waveshare.com/wiki/1.54inch_e-Paper_Module
 
 https://www.waveshare.com/wiki/Pico-ePaper-2.13
 
+## Pin Connections for Pico and E-Paper Display
+![Pin Connections](/PinConnections.png)
+
+## Pico Pin Layout
+![Pico Pin Layout](/raspberry-pi-pico-pinout.jpg)
 
 ## Test Environment
 WSL2 on Windows 11, VSCode.
 
-## Pin Connections for Pico and E-Paper Display
+Following link is a Beautiful Article by 'Paul Bupe, Jr',  describing WSL2 setup for Windows 10 and Up:
+https://paulbupejr.com/raspberry-pi-pico-windows-development/
+
+You may want to use following script to setup configure WSL2 as the Script in above article skips some official Repositories for Pico:
+https://github.com/hammadrauf/pico-wsl-setup/blob/main/pico_setup.sh
+
+Save this script in your home folder in WSL2 and run the following on the WSL2 prompts:
 ```
-	+=======================================================================================================================+
-	|	SYMBOL	DESCRIPTION						Pico Pin#				GPIO#			Active As			Master In/Out	|
-	|	======	===========						=========				=====			=========			=============	|
-	|	VCC		3.3V/5V							36/39																		|
-	|	GND		Ground							23																			|
-	|	DIN		SPI MOSI pin					25 (SPI0)				GP19								Out				|
-	|	CLK		SPI SCK pin						24 (SPI0)				GP18								Out				|
-	|	CS		SPI chip selection, low active	22 (Not in SPI0 mode)	GP17			Low					Out				|
-	|	DC		Data/Command selection (high	26 (Any)				GP20			High – Data,		Out				|
-	|			for data, low for command)												Low – Command						|
-	|	RST		External reset, low active		27 (Any)				GP21			Low					Out				|
-	|	BUSY	Busy status output, high active	29 (Any)				GP22			High				In				|
-	+=======================================================================================================================+
+cd ~
+git clone https://github.com/hammadrauf/pico-wsl-setup.git
+cd pico-wsl-setup
+/bin/bash ./pico_setup.sh
 ```
-![Pin Connections](/PinLayout.png)
+
+Configuring of Visual Studio Code is explained very nicely in the the article by Paul in section "Configure and Build with Visual Studio Code" in the article link given above. [One] (https://paulbupejr.com/raspberry-pi-pico-windows-development/ "Two")
 
