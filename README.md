@@ -8,6 +8,8 @@ https://www.waveshare.com/product/displays/e-paper/1.54inch-e-paper-module.htm
 
 https://www.waveshare.com/wiki/1.54inch_e-Paper_Module
 
+https://www.digikey.ca/en/maker/projects/raspberry-pi-pico-rp2040-spi-example-with-micropython-and-cc/9706ea0cf3784ee98e35ff49188ee045
+
 https://www.waveshare.com/wiki/Pico-ePaper-2.13
 
 ## Pin Connections for Pico and E-Paper Display
@@ -16,8 +18,15 @@ https://www.waveshare.com/wiki/Pico-ePaper-2.13
 ## Pico Pin Layout
 ![Pico Pin Layout](/raspberry-pi-pico-pinout.jpg)
 
-## Test Environment
-WSL2 on Windows 11, VSCode.
+## WSL2 Reference
+
+https://docs.microsoft.com/en-us/windows/wsl/about
+
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+
+## Test Environment Setup
+WSL2 on Windows 10 or 11, Visual Studio Code (VSCode).
 
 Following link is a Beautiful Article by 'Paul Bupe, Jr',  describing WSL2 setup for Windows 10 and Up:
 https://paulbupejr.com/raspberry-pi-pico-windows-development/
@@ -35,4 +44,5 @@ cd pico-wsl-setup
 ```
 
 Configuring of Visual Studio Code is explained very nicely in the the article by Paul in section "Configure and Build with Visual Studio Code" in [the article link given above.](https://paulbupejr.com/raspberry-pi-pico-windows-development/ "Link to article")
+
 
