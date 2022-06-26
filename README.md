@@ -14,7 +14,7 @@ https://www.waveshare.com/wiki/Pico-ePaper-2.13
 ## Test Environment
 WSL2 on Windows 11, VSCode.
 
-## Pinout for Pico and E-Paper Display
+## Pin Connections for Pico and E-Paper Display
 ```
 	+=======================================================================================================================+
 	|	SYMBOL	DESCRIPTION						Pico Pin#				GPIO#			Active As			Master In/Out	|
@@ -30,3 +30,4 @@ WSL2 on Windows 11, VSCode.
 	|	BUSY	Busy status output, high active	29 (Any)				GP22			High				In				|
 	+=======================================================================================================================+
 ```
+![Pin Connections](/PinLayout.png)
