@@ -55,4 +55,7 @@ cd pico-wsl-setup
 
 Configuring of Visual Studio Code is explained very nicely in the the article by Paul in section "Configure and Build with Visual Studio Code" in [the article link given above.](https://paulbupejr.com/raspberry-pi-pico-windows-development/ "Link to article")
 
+## Utilities
 
+Bitmap to Raw Data
+https://www.waveshare.com/wiki/File:Image2Lcd.7z
