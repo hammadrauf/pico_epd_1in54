@@ -23,6 +23,7 @@ add_subdirectory(examples)
 include_directories(examples)
 include_directories(./lib/Config)
 include_directories(./lib/GUI)
+include_directories(./lib/e-Paper)
 
 add_executable(${PROJECT_NAME}
         main.c

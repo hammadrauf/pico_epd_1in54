@@ -71,7 +71,7 @@ int EPD_1in54_V2_test(void)
     printf("show bmp------------------------\r\n");
     Paint_Clear(WHITE);    
     //GUI_ReadBmp("./pic/1in54.bmp", 0, 0);
-    Paint_DrawBitMap(gImage_1IN54);
+    Paint_DrawBitMap(gImage_1IN54_2);
     DEV_Delay_ms(2000);
     EPD_1IN54_V2_Display(BlackImage);
     DEV_Delay_ms(2000);
@@ -162,14 +162,14 @@ int EPD_1in54_V2_test(void)
     EPD_1IN54_V2_Init();
     EPD_1IN54_V2_Clear();
 
-    printf("Goto Sleep...\r\n");
-    EPD_1IN54_V2_Sleep();
+    //printf("Goto Sleep...\r\n");
+    //EPD_1IN54_V2_Sleep();
     free(BlackImage);
     BlackImage = NULL;
     DEV_Delay_ms(2000);//important, at least 2s
     // close 5V
-    printf("close 5V, Module enters 0 power consumption ...\r\n");
-    DEV_Module_Exit();
+    //printf("close 5V, Module enters 0 power consumption ...\r\n");
+    //DEV_Module_Exit();
     
     return 0;
 }

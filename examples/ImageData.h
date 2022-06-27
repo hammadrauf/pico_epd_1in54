@@ -32,13 +32,9 @@
 #ifndef _IMAGEDATA_H_
 #define _IMAGEDATA_H_
 
-extern const unsigned char flagimage[];
-
-extern const unsigned char gImage_2in13_2[];
-
-extern const unsigned char gImage_2in13[];
-
 extern const unsigned char gImage_1IN54[];
+
+extern const unsigned char gImage_1IN54_2[];
 
 #endif
 /* FILE END */

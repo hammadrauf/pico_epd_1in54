@@ -38,7 +38,6 @@
 #include <stdlib.h> // malloc() free()
 
 
-int EPD_2in13_V2_test(void);
 int EPD_1in54_V2_test(void);
 
 #endif
