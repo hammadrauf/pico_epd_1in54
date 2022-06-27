@@ -4,6 +4,9 @@ Raspberry Pi Pico (RP2040) example interface code with E-Paper Display 1.54 inch
 ## My Blog
 https://andromedabay.ddns.net/controlling-1-54-inch-e-paper-via-pico/
 
+## Youtube
+[![Video of E-Paper Demo working](https://img.youtube.com/vi/lqd6cS6Fkh8/0.jpg)](https://www.youtube.com/watch?v=lqd6cS6Fkh8)
+
 ## Reference Links
 https://www.raspberrypi.com/products/raspberry-pi-pico/
 
