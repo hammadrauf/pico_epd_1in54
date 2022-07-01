@@ -1,5 +1,5 @@
 # pico_epd_1in54
-Raspberry Pi Pico (RP2040) example interface code with E-Paper Display 1.54 inch from Wavesahre.
+Raspberry Pi Pico (RP2040) example interface code with E-Paper Display 1.54 inch from Wavesahre (Version v2).
 
 ## My Blog
 https://andromedabay.ddns.net/controlling-1-54-inch-e-paper-via-pico/
@@ -10,11 +10,11 @@ https://andromedabay.ddns.net/controlling-1-54-inch-e-paper-via-pico/
 ## Reference Links
 https://www.raspberrypi.com/products/raspberry-pi-pico/
 
-https://www.waveshare.com/product/displays/e-paper/1.54inch-e-paper-module.htm
+https://www.waveshare.com/product/displays/e-paper/1.54inch-e-paper-module.htm  (Version v2)
 
-https://www.waveshare.com/wiki/1.54inch_e-Paper_Module
+https://www.waveshare.com/wiki/1.54inch_e-Paper_Module     (Version v2)
 
-https://github.com/waveshare/e-Paper
+https://github.com/waveshare/e-Paper   (Version v2)
 
 https://www.digikey.ca/en/maker/projects/raspberry-pi-pico-rp2040-spi-example-with-micropython-and-cc/9706ea0cf3784ee98e35ff49188ee045
 
