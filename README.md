@@ -49,8 +49,7 @@ To download this script in your home folder in WSL2 and run the following on the
 cd ~
 sudo apt install -y git
 git clone https://github.com/hammadrauf/pico-wsl-setup.git
-cd pico-wsl-setup
-/bin/bash ./pico_setup.sh
+/bin/bash ./pico-wsl-setup/pico_setup.sh
 ```
 
 Configuring of Visual Studio Code is explained very nicely in the the article by Paul in section "Configure and Build with Visual Studio Code" in [the article link given above.](https://paulbupejr.com/raspberry-pi-pico-windows-development/ "Link to article")
