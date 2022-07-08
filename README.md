@@ -38,7 +38,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 ## Test Environment Setup
 WSL2 on Windows 10 or 11, Visual Studio Code (VSCode).
 
-Following link is a Beautiful Article by 'Paul Bupe, Jr',  describing WSL2 setup for Windows 10 and Up:
+Following link is a Beautiful Article by 'Paul Bupe, Jr',  describing WSL2 based C/C++ setup for Windows 10 and Up:
 https://paulbupejr.com/raspberry-pi-pico-windows-development/
 
 You may want to use following script to setup configure WSL2 as the Script in above article skips some official Repositories for Pico:
