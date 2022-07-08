@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/hamma/pico/pico-sdk/**",
+                "/home/wslg/pico/pico-sdk/**",
                 "/usr/lib/gcc/arm-none-eabi/**"                
             ],
             "defines": [],
