@@ -24,6 +24,7 @@ https://github.com/waveshare/Pico_ePaper_Code
 
 ## Pin Connections for Pico and E-Paper Display
 ![Pin Connections](/PinConnections.png)
+![Pins on E-paper](./pic/1.54inch-e-paper-module-4_1_2.jpg)
 
 ## Pico Pin Layout
 ![Pico Pin Layout](/raspberry-pi-pico-pinout.png)
