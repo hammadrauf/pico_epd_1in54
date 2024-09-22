@@ -35,6 +35,8 @@ https://docs.microsoft.com/en-us/windows/wsl/about
 
 https://docs.microsoft.com/en-us/windows/wsl/install
 
+- [Access USB Ports in WSL2](https://learn.microsoft.com/en-us/windows/wsl/connect-usb)
+
 
 ## Test Environment Setup
 WSL2 on Windows 10 or 11, Visual Studio Code (VSCode).
